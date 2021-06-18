@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "lzjrlwurwgbubp",
-    "password": "f55ccc1d02eb8be300e737848ac80bd60c5bd861ecb3d72cfd17f95d5b718863",
-    "database": "d1a1flmaqbdcq6",
-    "host": "ec2-54-78-36-245.eu-west-1.compute.amazonaws.com",
+    "username": "xzjcfudskdjolo",
+    "password": "1e706ca9068a9c1615b8a9e92e532b48b609bca36c811c8d8cff00912c6700c9",
+    "database": "d80onsidjofasr",
+    "host": "ec2-3-234-22-132.compute-1.amazonaws.com",
     "dialect": "postgres",
     "protocol": "postgres",
     "dialectOptions": {
@@ -22,10 +22,10 @@
     "dialect": "postgres"
   },
   "production": {
-    "username": "lzjrlwurwgbubp",
-    "password": "f55ccc1d02eb8be300e737848ac80bd60c5bd861ecb3d72cfd17f95d5b718863",
-    "database": "d1a1flmaqbdcq6",
-    "host": "ec2-54-78-36-245.eu-west-1.compute.amazonaws.com",
+    "username": "xzjcfudskdjolo",
+    "password": "1e706ca9068a9c1615b8a9e92e532b48b609bca36c811c8d8cff00912c6700c9",
+    "database": "d80onsidjofasr",
+    "host": "ec2-3-234-22-132.compute-1.amazonaws.com",
     "dialect": "postgres",
     "protocol": "postgres",
     "dialectOptions": {
