@@ -1,0 +1,13 @@
+.drug-list-container {
+  margin: 5% 10%;
+  border: 1px solid gray;
+  padding: 3%;
+}
+
+.list-item {
+  width: 167%;
+}
+
+.item-details {
+  display: flex;
+}
