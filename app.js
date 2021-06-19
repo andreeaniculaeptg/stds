@@ -17,10 +17,10 @@ var CLINICALSTUDIES = require("./db-init-data/DrugsClinicalStudies-ALL.json");
 
 const db = require("./models/index.js");
 
-db.sequelize.sync({ force: true }).then(() => {
-  console.log('Drop and Resync with { force: true }');
-  initialize();
-});
+// db.sequelize.sync({ force: true }).then(() => {
+//   console.log('Drop and Resync with { force: true }');
+//   initialize();
+// });
 
 function initialize() {
 
