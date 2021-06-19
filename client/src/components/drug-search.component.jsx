@@ -38,7 +38,9 @@ function DrugSearch() {
             <Form onSubmit={handleSubmit}>
             <Form.Group controlId="searchByDrugName">
                 <Form.Label style={{display : 'flex'}}>Filter by 
-                    <RadioGroup style={{marginLeft: '5%'}} aria-label="gender" name="gender1" value={cat1} onChange={(event) => {setCat1(event.target.value)}}>
+                    <RadioGroup style={{marginLeft: '5%'}} aria-label="gender" name="gender1" value={cat1} onChange={(event) => {setCat1(event.target.value)}}
+                        defaultValue="name" 
+                    >
                         <FormControlLabel value="name" control={<Radio />} label="By Name" />
                         <FormControlLabel value="category" control={<Radio />} label="By Category" />
                     </RadioGroup>
