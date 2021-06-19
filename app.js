@@ -17,14 +17,14 @@ var CLINICALSTUDIES = require("./db-init-data/DrugsClinicalStudies-ALL.json");
 
 const db = require("./models/index.js");
 
-// db.sequelize.sync({ force: true }).then(() => {
-//   console.log('Drop and Resync with { force: true }');
-//   initialize();
-// });
+db.sequelize.sync({ force: true }).then(() => {
+  console.log('Drop and Resync with { force: true }');
+  initialize();
+});
 
 function initialize() {
 
-  DRUGS = DRUGS.slice(0, 3000);
+  DRUGS = DRUGS.slice(0, 2000);
 
   var drugsDb = DRUGS.map(drugOcto => {
     var drugDb = {

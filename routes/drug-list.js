@@ -16,7 +16,7 @@ router.get("/", function (req, res, next) {
   if (req.query["cat1"] === "null") {
     db.drug
       .findAll({
-        order: [["createdAt", "DESC"]],
+        order: [["id", "ASC"]],
       })
       .then((drugListDb) => {
         res.send(drugListDb);
