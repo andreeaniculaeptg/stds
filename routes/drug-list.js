@@ -23,6 +23,7 @@ router.get("/", function (req, res, next) {
       });
   }
 
+
   let whereClauseName = {
     name: {
       [Op.substring]:
@@ -53,10 +54,10 @@ router.get("/", function (req, res, next) {
     }
   }
 
-  if (req.query["cat1"] === "name") {
+  if (req.query["cat1"] === "name" || req.query["cat1"] === "undefined") {
     db.drug
       .findAll({
-        order: [["createdAt", "DESC"]],
+        order: [["id", "ASC"]],
         where: whereClauseName
       })
       .then((drugListDb) => {
