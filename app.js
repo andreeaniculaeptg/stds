@@ -24,7 +24,7 @@ const db = require("./models/index.js");
 
 function initialize() {
 
-  DRUGS = DRUGS.slice(0, 2000);
+  DRUGS = DRUGS.slice(0, 1000);
 
   var drugsDb = DRUGS.map(drugOcto => {
     var drugDb = {
